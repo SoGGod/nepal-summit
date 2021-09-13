@@ -20,7 +20,7 @@ function Footer() {
                         <h5><span>Quick Links</span></h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresi voluptas nesciunt porro modi, vel veniam.</p>
                     </div>
-                    <div className="col-md-3 text-justify-center">
+                    <div className="right_most_part col-md-3 ">
                         <h5><span>Find Us</span></h5>
                         <div className="find-icon">
                             <div className="icon">

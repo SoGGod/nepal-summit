@@ -30,8 +30,11 @@
 
 @media only screen and (max-width: 400px) {
     .right_most_part {
-      margin-left: 80px;
+      margin-left: -10px;
       flex-wrap: wrap;
+    }
+    .find-icon{
+        margin-left: -50px;
     }
   }
   

@@ -31,10 +31,14 @@
     .logo-reg{
         position: absolute;
         top: 5%;
-        left: 19%;
+        left: 25%;
     }
     .banner .logo img{
         height: 100px;
         width: 100px;
+
     }
+    /* .reglink{
+        margin-left: 25px;
+    } */
        }
