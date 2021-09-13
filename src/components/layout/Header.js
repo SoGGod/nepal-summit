@@ -24,7 +24,7 @@ function Header() {
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Summit 2021
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown" id="sdrop">
+                <ul className="dropdown-menu r-3" aria-labelledby="navbarDropdown" id="sdrop">
                   <li><a className="dropdown-item" href="#">About The Event</a></li>
                   <li><a className="dropdown-item" href="#">Program</a></li>
                   <li><a className="dropdown-item" href="#">FAQs</a></li>

@@ -19,6 +19,7 @@
     padding-top: 5px;
     padding-bottom: 8px;
     color: #fff;
+    margin-bottom: 15px;
 }
 .footer .find-icon{
     padding-left: 70px;
@@ -26,3 +27,11 @@
 .footer .find-icon .icon{
     margin: 0px 20px;
 }
+
+@media only screen and (max-width: 400px) {
+    .right_most_part {
+      margin-left: 80px;
+      flex-wrap: wrap;
+    }
+  }
+  
