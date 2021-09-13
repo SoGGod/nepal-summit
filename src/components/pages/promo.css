@@ -1,0 +1,26 @@
+.pormobanner{
+    height: 250px;
+    width: 100%;
+    background: url('../../img/banner.jpg')no-repeat;
+    background-size: cover;
+}
+.pormobanner p{
+    width: auto;
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 550;
+    padding: 50px 100px;
+    
+}
+@media screen and (max-width: 1024px) {
+    .pormobanner p{
+        width: auto;
+        text-align: justify;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 550;
+        padding: 10px !important;
+        
+    }
+       }

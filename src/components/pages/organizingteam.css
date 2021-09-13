@@ -1,0 +1,105 @@
+.oteam h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(206, 10, 10);
+    font-weight: bold;
+}
+.all-teams{
+    background-color: #f2f2f2;
+}
+.team-width{
+    width: 80%;
+    margin: auto;
+}
+.oteam-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.team-card{
+    height: auto;
+    width: 290px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 7px;
+    text-align: center;
+    padding:30px 0px ;
+    border-radius: 10px;
+    margin:0px 10px 30px 10px ;
+}
+.team-card img{
+height: 140px;
+width: 140px;
+border-radius: 50%;
+
+}
+.team-card h3{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.team-card .text{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: -5px;
+}
+.team-card .social-icons{
+    display: flex;
+    padding-left: 50px;
+}
+.team-card .social-icons .so-icon{
+    height: auto;
+    width: auto;
+    background-color: #4267B2;
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.team-card .social-icons .so-icon1{
+    height: auto;
+    width: auto;
+    background-color: #C13584;
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.team-card .social-icons .so-icon2{
+    height: auto;
+    width: auto;
+    background-color: #C13584;
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.team-card .social-icons .so-icon3{
+    height: auto;
+    width: auto;
+    background-color: #1DA1F2;
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.team-card .social-icons .fa-facebook-f{
+    margin-top: 11px;
+    font-size: 19px;
+    color: #fff;
+}
+.team-card .social-icons .fa-instagram{
+    margin-top: 11px;
+    font-size: 19px;
+    color:  #fff;
+}
+.team-card .social-icons .fa-twitter{
+    margin-top: 11px;
+    font-size: 19px;
+    color:  #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .team-width{
+        width: 90%;
+    }
+       }

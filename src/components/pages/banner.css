@@ -1,0 +1,40 @@
+
+.hero-img{
+    background-color: black;
+}
+.hero-img img{
+    opacity: .8;
+}
+
+.reglink button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(216, 4, 4);
+}
+.banner-back{
+    position:relative;
+}
+.logo-reg{
+    position: absolute;
+    top: 8.5%;
+    left: 40%;
+}
+.banner .logo img{
+    height: 250px;
+    width: 250px;
+}
+@media screen and (max-width: 1024px) {
+    .logo-reg{
+        position: absolute;
+        top: 5%;
+        left: 19%;
+    }
+    .banner .logo img{
+        height: 100px;
+        width: 100px;
+    }
+       }

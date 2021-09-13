@@ -1,0 +1,80 @@
+.taa{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    text-align: center !important;
+    padding-bottom: 10px;
+   
+}
+.abouttheevent{
+    width: 90%;
+    margin: auto;
+}
+.taa::after{
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 15%; 
+    padding-top: 7px; 
+    border-bottom: 4px solid #ccc; 
+}
+.transimgcont{
+    display: flex;
+    justify-content: space-around;
+
+}
+.transimg{
+    text-align: center;
+}
+.transimgcont .transimg img{
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+}
+.abouttheevent h2{
+    text-align: center;
+   }
+.transimgcont .transdesc{
+    text-align: justify;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.references{
+    text-align: center;
+    margin-top: 40px;
+}
+.references h4{
+    text-decoration-style: initial;
+}
+.references h4 span{
+    border-bottom: 3px solid #fa7d00;
+}
+.references .referencelinks{
+    text-align: justify;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.referencelinks span{
+    text-align: justify;
+}
+
+@media screen and (max-width: 1050px) {
+    .transimgcont .transimg img{
+        height: 300px;
+        width: 300px;;
+    }
+}
+@media screen and (max-width: 740px) {
+    .transimgcont .transdesc{
+       
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .transimgcont{
+       flex-direction: column;
+    }
+   
+}

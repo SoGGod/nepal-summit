@@ -1,0 +1,43 @@
+.summit-head nav{
+    background-color: rgb(204, 39, 39);
+}
+.summit-head ul li a{
+    color: #fff ;
+    font-size: 20px;
+}
+.summit-head ul li a:hover{
+    color: #fff;
+}
+#sdrop li a{
+    color: #000 !important;
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    border-style: dashed;
+}
+.navlink:active{
+    color: #000 !important;
+}
+#sdrop{
+    margin-left: -35px;
+    background-color: #ccc;
+}
+#sdropg{
+    margin-left: -25px;
+    background-color: #ccc;
+}
+#sdropg li a{
+    color: #000 !important;
+    font-size: 18px;
+    border-bottom: 1px solid red;
+    border-style: dashed;
+}
+#rmdrop li a{
+    color: #000 !important;
+    font-size: 18px;
+    border-bottom: 1px solid red;
+    border-style: dashed;
+}
+#rmdrop{
+    margin-left: 20px;
+    background-color: #ccc;
+}

@@ -1,0 +1,94 @@
+import React from 'react'
+import './Check.css'
+function Check() {
+    return (
+        <div>
+            
+            <div className="container mt-5 d-flex justify-content-center">
+        
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 l-5 r-5">
+          <div className="my-card">
+               <img className="my-card-img" src="https://i.imgur.com/iNFaRXx.jpg" />
+            <div className="my-card-body trainer-card-body">
+              <h5>Anil Paudel</h5>
+              <p>Web designer &amp; Developer</p>
+              <div className="social-icons d-flex">
+                     <a href="#"><i className="fab fa-facebook-f" /></a>
+                      <a href="#"><i className="fab fa-twitter" /></a> </div> 
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="my-card"> <img className="my-card-img" src="https://i.imgur.com/iNFaRXx.jpg" />
+            <div className="my-card-body trainer-card-body">
+              <h5>Anil Paudel</h5>
+              <p>Web designer &amp; Developer</p>
+              <div className="social-icons">
+                     <a href="#"><i className="fab fa-facebook-f" /></a>
+                      <a href="#"><i className="fab fa-twitter" /></a> </div> 
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="my-card"> <img className="my-card-img" src="https://i.imgur.com/iNFaRXx.jpg" />
+            <div className="my-card-body trainer-card-body">
+              <h5>Anil Paudel</h5>
+              <p>Web designer &amp; Developer</p>
+              <div className="social-icons">
+                     <a href="#"><i className="fab fa-facebook-f" /></a>
+                      <a href="#"><i className="fab fa-twitter" /></a> </div> 
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="my-card"> <img className="my-card-img" src="https://i.imgur.com/iNFaRXx.jpg" />
+            <div className="my-card-body trainer-card-body">
+              <h5>Anil Paudel</h5>
+              <p>Web designer &amp; Developer</p>
+              <div className="social-icons">
+                     <a href="#"><i className="fab fa-facebook-f" /></a>
+                      <a href="#"><i className="fab fa-twitter" /></a> </div> 
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="my-card"> <img className="my-card-img" src="https://i.imgur.com/iNFaRXx.jpg" />
+            <div className="my-card-body trainer-card-body">
+              <h5>Anil Paudel</h5>
+              <p>Web designer &amp; Developer</p>
+              <div className="social-icons">
+                     <a href="#"><i className="fab fa-facebook-f" /></a>
+                      <a href="#"><i className="fab fa-twitter" /></a> </div> 
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="my-card"> <img className="my-card-img" src="https://i.imgur.com/iNFaRXx.jpg" />
+            <div className="my-card-body trainer-card-body">
+              <h5>Anil Paudel</h5>
+              <p>Web designer &amp; Developer</p>
+              <div className="social-icons">
+                     <a href="#"><i className="fab fa-facebook-f" /></a>
+                      <a href="#"><i className="fab fa-twitter" /></a> </div> 
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div className="my-card"> <img className="my-card-img" src="https://i.imgur.com/iNFaRXx.jpg" />
+            <div className="my-card-body trainer-card-body">
+              <h5>Anil Paudel</h5>
+              <p>Web designer &amp; Developer</p>
+              <div className="social-icons">
+                     <a href="#"><i className="fab fa-facebook-f" /></a>
+                      <a href="#"><i className="fab fa-twitter" /></a> </div> 
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+        </div>
+    )
+}
+
+export default Check

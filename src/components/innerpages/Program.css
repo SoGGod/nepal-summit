@@ -1,0 +1,30 @@
+.program{
+    text-align: justify;
+}
+.program .program_heading {
+    text-align: center;
+    margin-bottom: 80px;
+    height: 200px;
+}
+.program .program_heading h3{
+    justify-content: center;
+    padding: 50px 50px;
+
+}
+ #schedule_h4{
+    text-align: center !important;
+    text-decoration-line: underline;
+
+}
+.program .program_down{
+    text-align: center;
+    background-color: #f6f6f6;
+    display: flex;
+}
+#schedule_h4{
+    margin-bottom: 20px;
+    padding: 1%;
+}
+.program_day1 ul{
+    list-style-type: circle;
+}
