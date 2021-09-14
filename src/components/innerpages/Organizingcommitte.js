@@ -1,7 +1,11 @@
 import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
 import './Organizingcommitte.css'
 function Organizingcommitte() {
     return (
+      <>
+      <Header/>
         <div className="organizing">
             
             <div className="sdgss" id="career">
@@ -45,6 +49,8 @@ function Organizingcommitte() {
       </div>
 
         </div>
+        <Footer/>
+        </>
     )
 }
 

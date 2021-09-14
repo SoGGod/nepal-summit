@@ -1,7 +1,11 @@
 import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
 import './Newscoverage.css'
 function Newscoverage() {
     return (
+        <>
+        <Header/>
         <div className="news_coverage">
            
 
@@ -61,6 +65,8 @@ function Newscoverage() {
 
 
         </div>
+        <Footer/>
+        </>
     )
 }
 

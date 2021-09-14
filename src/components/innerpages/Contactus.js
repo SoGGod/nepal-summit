@@ -1,7 +1,11 @@
 import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
 import './Contactus.css'
 function Contactus() {
     return (
+      <>
+      <Header/>
         <div className="contact_us">
             <div className="container_contactus d-flex justify-content-center">
 
@@ -23,6 +27,8 @@ function Contactus() {
 
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

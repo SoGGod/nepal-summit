@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
 import './Abouttheevent.css'
 function Abouttheevent() {
     return (
+      <>
+      <Header/>
         <div>
-            <div className="abouttheevent pt-5">
+            <div className="abouttheevent pt-5 mt-5 mb-5">
         <h2 className="taa pb-4"> About the Event  </h2>
         <div className="transimgcont">
           <div className="transdesc">
@@ -36,6 +40,8 @@ function Abouttheevent() {
         </div>
       </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

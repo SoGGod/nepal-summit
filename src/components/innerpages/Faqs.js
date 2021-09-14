@@ -1,10 +1,14 @@
 import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
 import './Faqs.css'
 function Faqs() {
     return (
+      <>
+      <Header/>
         <div>
             
-            <div className="faq-main pt-4">
+            <div className="faq-main pt-4 mb-5">
             <h3 className="faqss pt-5 pb-5"> Frequently Asked Questions (FAQ) </h3>
             
             <div className="accordion" id="accordionExample">
@@ -146,6 +150,8 @@ function Faqs() {
 
 
         </div>
+        <Footer/>
+        </>
     )
 }
 

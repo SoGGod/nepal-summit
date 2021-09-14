@@ -1,12 +1,16 @@
 import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
 import './Advisoryboard.css'
 function Advisoryboard() {
     return (
+        <>
+        <Header/>
         <div>
             
-            <div className="advisor_board">
+            <div className="advisor_board mb-5">
                 <div className="davisor_head">
-                    <h1>Meet Our Advisor Team</h1>
+                    <h1 className="advisor_h1">Meet Our Advisor Body</h1>
                     <p>Meet our leaders: an experienced team that
                          combines strong functional expertise and diverse
                           perspectives to set strategic direction and meet
@@ -61,6 +65,8 @@ function Advisoryboard() {
             </div>
 
         </div>
+        <Footer/>
+        </>
     )
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 
 import DztImageGalleryComponent from "reactjs-image-gallery";
+import Footer from "../layout/Footer";
 import Header from "../layout/Header";
 function Gallerypics() {
 
@@ -72,6 +73,7 @@ function Gallerypics() {
         <div className="gallerypics" style={{margin:'20px 20px', marginTop:'20px'}}>
             <DztImageGalleryComponent images={data}/>
         </div>
+        <Footer/>
         </>
     )
 }

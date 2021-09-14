@@ -1,7 +1,11 @@
 import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
 import './Programsummit.css'
 function Programsummit() {
     return (
+        <>
+        <Header/>
         <div className="program">
             <div className="program_heading">
                 <h3> Program </h3>
@@ -37,6 +41,8 @@ function Programsummit() {
             </div>
             
         </div>
+        <Footer/>
+        </>
     )
 }
 
