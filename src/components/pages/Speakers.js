@@ -2,7 +2,7 @@ import React from 'react'
 import './speakers.css'
 function Speakers() {
     return (
-       <div className="speakers ">
+       <div className="speakers " id="speakersloc">
            <h2>Speakers</h2>
 
            <div className="container mt-5 d-flex justify-content-center">

@@ -9,8 +9,8 @@ function Advisoryboard() {
         <div>
             
             <div className="advisor_board mb-5">
-                <div className="davisor_head">
-                    <h1 className="advisor_h1">Meet Our Advisor Body</h1>
+                <div className="davisor_head text-center">
+                    <h1 className="advisor_h1 text-center">Meet Our Advisor Body</h1>
                     <p>Meet our leaders: an experienced team that
                          combines strong functional expertise and diverse
                           perspectives to set strategic direction and meet

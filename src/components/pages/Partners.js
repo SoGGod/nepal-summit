@@ -2,7 +2,7 @@ import React from 'react'
 import './partners.css'
 function Partners() {
     return (
-        <div className="partners">
+        <div className="partners" id="partnersnsponsers">
             <h2>Partners/Sponsers</h2>
             <div className="all-partners">
                 <div className="all-partners-width pt-5 pb-4">

@@ -3,7 +3,7 @@ import './agenda.css'
 
 function Agenda() {
     return (
-        <div className="agenda">
+        <div className="agenda" id="agendas">
             <h2>Agenda</h2>
             <div className="agenda-video">
            <div className="agenda-width">

@@ -10,6 +10,9 @@ import Home from './Home'
 import Contactus from './components/innerpages/Contactus'
 import Gallerypics from './components/innerpages/Gallerypics'
 import Newscoverage from './components/innerpages/Newscoverage'
+import Reports from './components/innerpages/Reports'
+import Pressrelease from './components/innerpages/Pressrelease'
+import SpeechNvideos from './components/innerpages/SpeechNvideos'
 function Routes() {
     return (
         <div>
@@ -26,6 +29,9 @@ function Routes() {
                     <Route exact path="/contact-us" component={Contactus}/>
                     <Route exact path="/gallery" component={Gallerypics}/> 
                     <Route exact path="/news-coverage" component={Newscoverage}/>
+                    <Route exact path="/reports" component={Reports}/>
+                    <Route exact path="/press-release" component={Pressrelease}/>
+                    <Route exact path="/speech-videos" component={SpeechNvideos}/>
 
               </Switch>
             </Router>
