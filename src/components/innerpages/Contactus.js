@@ -3,10 +3,10 @@ import './Contactus.css'
 function Contactus() {
     return (
         <div className="contact_us">
-            <div className="container d-flex justify-content-center">
+            <div className="container_contactus d-flex justify-content-center">
 
             <div className="row my-5 mx-5">
-        <div className="col-md-6"> <img src="https://png.pngtree.com/png-vector/20190725/ourlarge/pngtree-message-icon-design-vector-png-image_1587713.jpg" alt="IMG" /> </div>
+        <div className="col-md-6"> <img className="contact_us_img" src="https://png.pngtree.com/png-vector/20190725/ourlarge/pngtree-message-icon-design-vector-png-image_1587713.jpg" alt="IMG" /> </div>
         <div className="col-md-6">
           <h2 className="form-title">Contact us</h2>
           <p className="justify text-muted">Have an enquiry or would like to give us feedback?<br />Fill out the form below to contact our team.</p>

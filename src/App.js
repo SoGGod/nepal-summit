@@ -12,8 +12,6 @@ import OrganizingTeam from './components/pages/OrganizingTeam';
 import Partners from './components/pages/Partners';
 import Promo from './components/pages/Promo';
 import Speakers from './components/pages/Speakers';
-import Newscoverage from './components/innerpages/Newscoverage';
-import Check from './components/Check';
 
 function App() {
   return (
@@ -28,9 +26,6 @@ function App() {
       <Promo/>
       <Contact/>
       <Footer/>
-      {/* <Gallerypics/> */}
-      {/* <Newscoverage/> */}
-      {/* <Check/> */}
     </div>
   );
 }

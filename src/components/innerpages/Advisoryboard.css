@@ -28,7 +28,7 @@ text-align: justify;
 .advisor_team{
     width: 100%;
     margin: auto;
-    background-color: rgb(172, 127, 172);
+    background-color: rgb(55, 172, 226);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -48,13 +48,13 @@ padding: 20px 10px;
     height: 190px;
     width: 190px;
     border-radius: 50%;
-    border: 4px solid orange;
+    border: 4px solid rgb(19, 18, 19);
 }
 .advisor_member .name{
     margin-top:30px;
     font-size: 20px;
     font-weight: 550;
-    background-color: rgb(136, 4, 141);
+    background-color: rgb(51, 39, 51);
     color: #fff;
     padding: 5px;
 }
@@ -73,7 +73,7 @@ padding: 20px 10px;
 
   .advisor_member .media-icons a:hover{
     color: #fff;
-    background-color: rgb(144, 7, 156);
+    background-color: rgb(144, 7, 255);
   
   }
   .advisor_member .media-icons a{
@@ -86,7 +86,7 @@ padding: 20px 10px;
     color: #FFF;
     border-radius: 50%;
     border: 2px solid transparent;
-    background-color: #fa7d00;
+    background-color: rgb(192, 23, 17);
    transition: all 0.3s ease;
   }
 

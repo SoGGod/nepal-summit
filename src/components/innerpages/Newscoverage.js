@@ -1,27 +1,65 @@
 import React from 'react'
-
+import './Newscoverage.css'
 function Newscoverage() {
     return (
         <div className="news_coverage">
-            <div className="row col-md-12 pt-5 pb-5" id="news_coverage_all">
+           
 
-                    <div className="card mb-3" style={{maxWidth: '540px'}}>
-                    <div className="row g-0">
-                    <div className="col-md-6">
-                        <img src="./images/slid1.jpg" className="img-fluid rounded-start w-100" alt="..." />
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
-                        </div>
-                    </div>
-                    </div>
-                    </div>
+           <div className="contentnews">
+        <h2 className="section-title mb-5 mt-5">news Coverage</h2>
+        <div className="newscoverage">
+          <article className="newscardcoverage">
+            <img src="http://via.placeholder.com/350x150/5ec8f8/fff" alt="" />
+            <h3 className="titlecover">Lorem Ipsum is simply dummy text </h3>
+            <p className="descover">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <div className="location">kantipur</div>
+          </article>
+          <article className="newscardcoverage">
+            <img src="http://via.placeholder.com/350x150/ff7d54/fff" alt="" />
+            <h3 className="titlecover">Lorem Ipsum is simply dummy text </h3>
+            <p className="descover">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <div className="location">onlinekhabar</div>
+          </article>
+          <article className="newscardcoverage">
+            <img src="http://via.placeholder.com/350x150//fff" alt="" />
+            <h3 className="titlecover">Lorem Ipsum is simply dummy text </h3>
+            <p className="descover">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <div className="location">Sajhakatha</div>
+          </article>
+          <article className="newscardcoverage">
+            <img src="http://via.placeholder.com/350x150//fff" alt="" />
+            <h3 className="titlecover">Lorem Ipsum is simply dummy text </h3>
+            <p className="descover">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <div className="location">Sajhakatha</div>
+          </article>
+          <article className="newscardcoverage">
+            <img src="http://via.placeholder.com/350x150/5ec8f8/fff" alt="" />
+            <h3 className="titlecover">Lorem Ipsum is simply dummy text </h3>
+            <p className="descover">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <div className="location">kantipur</div>
+          </article>
+          <article className="newscardcoverage">
+            <img src="http://via.placeholder.com/350x150/ff7d54/fff" alt="" />
+            <h3 className="titlecover">Lorem Ipsum is simply dummy text </h3>
+            <p className="descover">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <div className="location">onlinekhabar</div>
+          </article>
+        </div>
+      </div>
 
-            </div>
-            
+
         </div>
     )
 }

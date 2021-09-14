@@ -16,11 +16,11 @@ function Advisoryboard() {
                 <div className="advisor_team">
                     <div className="advisor_member">
                         <div className="image">
-                            <img src="./images/advisor/advisor1.jpg" alt="" />
+                            <img src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
                         </div>
                         <div className="advisor_content">
-                                <p className="name">Mr. Sankar Prasad Koirala</p>
-                                <p className="job">Former Finance Minister </p>
+                                <p className="name">Mr. Anil Paudel</p>
+                                <p className="job"> Web developer </p>
                                 <div className="media-icons">
                                     <a href="#"><i className="fab fa-facebook-f" /></a>
                                     <a href="#"><i className="fab fa-twitter" /></a>
@@ -30,11 +30,11 @@ function Advisoryboard() {
                     </div>
                     <div className="advisor_member">
                         <div className="image">
-                            <img src="./images/advisor/Bimala-Rai-Paudel.jpg" alt="" />
+                            <img src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
                         </div>
                         <div className="advisor_content">
-                                <p className="name">Hon. Bimala Rai Poudel PHD</p>
-                                <p className="job">National Assembly Member </p>
+                                <p className="name">Mr. Anil Paudel</p>
+                                <p className="job"> Web developer </p>
                                 <div className="media-icons">
                                     <a href="#"><i className="fab fa-facebook-f" /></a>
                                     <a href="#"><i className="fab fa-twitter" /></a>
@@ -44,11 +44,11 @@ function Advisoryboard() {
                     </div>
                     <div className="advisor_member">
                         <div className="image">
-                            <img src="./images/advisor/Hemraj-Dhakal.jpg" alt="" />
+                            <img src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
                         </div>
                         <div className="advisor_content">
-                                <p className="name">Mr. Hemraj Dhakal</p>
-                                <p className="job">Executive Director IME Group</p>
+                                 <p className="name">Mr. Anil Paudel</p>
+                                <p className="job"> Web developer </p>
                                 <div className="media-icons">
                                     <a href="#"><i className="fab fa-facebook-f" /></a>
                                     <a href="#"><i className="fab fa-twitter" /></a>
@@ -56,52 +56,7 @@ function Advisoryboard() {
                                 </div>
                         </div>
                     </div>
-                    <div className="advisor_member">
-                        <div className="image">
-                            {/* <img src="./images/advisor/man-bahadur-bk-5.jpg" alt="" /> */}
-                        </div>
-                        <div className="advisor_content">
-                                {/* <p className="name">Mr. Man Bahadur BK </p> */}
-                                <p className="name">Mr. Lorem Ipsum</p>
-                                {/* <p className="job">Former Sectetry , Government of Nepal  </p> */}
-                                <div className="media-icons">
-                                    <a href="#"><i className="fab fa-facebook-f" /></a>
-                                    <a href="#"><i className="fab fa-twitter" /></a>
-                                    <a href="#"><i className="fab fa-youtube" /></a>
-                                </div>
-                        </div>
-                    </div>
-                   
-                    <div className="advisor_member">
-                        <div className="image">
-                            {/* <img src="./images/advisor/Arun-Nepal.jpg" alt="" /> */}
-                        </div>
-                        <div className="advisor_content">
-                                <p className="name">Mr. Lorem Ipsum</p>
-                                {/* <p className="name">Mr. Arun Nepal</p> */}
-                                {/* <p className="job">Former Industry Minister</p> */}
-                                <div className="media-icons">
-                                    <a href="#"><i className="fab fa-facebook-f" /></a>
-                                    <a href="#"><i className="fab fa-twitter" /></a>
-                                    <a href="#"><i className="fab fa-youtube" /></a>
-                                </div>
-                        </div>
-                    </div>
-                    <div className="advisor_member">
-                        <div className="image">
-                            {/* <img src="./images/advisor/Arun-Nepal.jpg" alt="" /> */}
-                        </div>
-                        <div className="advisor_content">
-                        <p className="name">Mr. Lorem Ipsum</p>
-                                {/* <p className="name">Mr. Arun Nepal</p>
-                                <p className="job">Former Industry Minister</p> */}
-                                <div className="media-icons">
-                                    <a href="#"><i className="fab fa-facebook-f" /></a>
-                                    <a href="#"><i className="fab fa-twitter" /></a>
-                                    <a href="#"><i className="fab fa-youtube" /></a>
-                                </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
 

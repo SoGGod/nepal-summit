@@ -1,0 +1,73 @@
+.program{
+    text-align: justify;
+   
+}
+.program .program_heading {
+    text-align: center;
+    margin-bottom: 80px;
+    height: 200px;
+    
+}
+.program .program_heading h3{
+    justify-content: center;
+    padding: 50px 50px;
+
+}
+ #schedule_h4{
+    text-align: center !important;
+    text-decoration-line: underline;
+
+}
+.program .program_down{
+    text-align: center;
+    background-color: #f6f6f6;
+    display: flex;
+    width: auto;
+}
+#schedule_h4{
+    margin-bottom: 20px;
+    padding: 1%;
+}
+.day1_ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day2_ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.all_programs_list{
+    display: flex;
+    flex-direction: row;
+    
+}
+@media only screen and (max-width: 600px) {
+   
+    .day1_ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: -14%;
+    }
+    .all_programs_list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left:-300px
+
+    }
+    .day2_ul{
+        margin-left: 5%;
+    }
+    #schedule_h4{
+     
+        margin-top: 20px;
+        margin-left: 25%;
+        text-align: center;
+    }
+    .schedule_image_head{
+        margin-top: -20px;
+        align-items: center;
+        text-align: center;
+    }
+  }

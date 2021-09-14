@@ -1,6 +1,7 @@
 import React from "react";
 
 import DztImageGalleryComponent from "reactjs-image-gallery";
+import Header from "../layout/Header";
 function Gallerypics() {
 
     var data = [
@@ -53,15 +54,25 @@ function Gallerypics() {
           title: "Lorem Ipsum",
           thumbUrl:
             "https://images.unsplash.com/photo-1446488547543-78c11468449a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80"
+        },
+        {
+          url:
+            "https://images.unsplash.com/photo-1446488547543-78c11468449a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80",
+          title: "Lorem Ipsum",
+          thumbUrl:
+            "https://images.unsplash.com/photo-1446488547543-78c11468449a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80"
         }
       ];
 
     return (
-        <div>
-            <DztImageGalleryComponent
-             images={data}
-             />
+        
+           <>
+              <Header/>
+      
+        <div className="gallerypics" style={{margin:'20px 20px', marginTop:'20px'}}>
+            <DztImageGalleryComponent images={data}/>
         </div>
+        </>
     )
 }
 
