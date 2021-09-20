@@ -1,12 +1,12 @@
 .summit-head nav{
-    background-color: #09add9;
+    background-color:#fdfdfd;
 }
 .summit-head ul li a{
-    color: #fff ;
+    color: #000 ;
     font-size: 20px;
 }
 .summit-head ul li a:hover{
-    color: #000;
+    color: #09add9
 }
 #sdrop li a:hover{
     background-color: #09add9;

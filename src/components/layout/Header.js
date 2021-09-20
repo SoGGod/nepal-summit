@@ -14,7 +14,7 @@ function Header() {
           <div className="col-md-1">    
           </div> 
              <div className="col-md-2 text-center">
-       <Link to="/"> <img src="./images/summit-logo.jpg" height="130px" width="130px" alt="" /> </Link>
+       <Link to="/"> <img src="./images/summit-logo-1.png" height="130px" width="130px" alt="" /> </Link>
             </div> 
           <button className="navbar-toggler"style={{color:'black',backgroundColor:'white'}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
@@ -76,8 +76,9 @@ function Header() {
           </div>
         </div>
       </nav>
-      
+      <hr style={{height:'2px'}}/>
         </div>
+  
     )
 }
 
