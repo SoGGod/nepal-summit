@@ -1,69 +1,103 @@
-body {
-    background-color: #eee
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.check123 {
+    background-color: #161623;
+    min-height: 80vh;
 }
 
-.my-card{
-    margin: 4px 10px;
-}
-.container{
-    display: flex;
-    flex-wrap: wrap;
+.check123::before {
+    content: '';
+    position: absolute;
+    left: 1%;
+    top: 130%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2d2dff, #ff2f2f);
+    clip-path: circle(25% at right)
 }
 
-.my-card {
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    background-color: #fff;
-    background-clip: border-box;
-    box-shadow: 0px 0px 8px;
-    margin-bottom: 28px;
-    border-radius: 35px 0;
+.check123::after {
+    content: 'after';
+    position: absolute;
+    left: 0%;
+    top: 140%;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: linear-gradient(#870aec, #6e0b81);
+    clip-path: circle(20% at 10% 35%)
+}
+
+.check123 .container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 100
+}
+
+.check123 .container .row .card-about {
+    width: 400px;
+    height: 400px;
+    margin: 60px;
+    background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
-    transition: .5s
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    cursor: pointer
 }
 
-.my-card:hover {
-    box-shadow: 0px 0px 8px #c81a3b
+.check123 .container .row .card-about .card-about-body {
+    padding: 1rem 1.2rem;
+    color: #fff
 }
 
-.my-card img {
-    max-height: 250px;
-    width: 100%
+.check123 .container .row .card-about .card-about-body .card-img img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    transform: translateY(50px);
+    transition: 0.5s;
+    border-radius: 50%
 }
 
-.my-card-body {
-    padding: 20px;
-    margin-bottom: 20px
+.check123 .container .row .card-about .card-about-body .name {
+    transform: translateY(50px);
+    transition: 0.5s
 }
 
-.my-card-body h5 {
-    text-transform: capitalize;
-    line-height: 25px;
-    font-size: 25px
+.check123 .container .row .card-about .card-about-body .testimonial {
+    font-size: 0.9rem;
+    pointer-events: none;
+    transform: translateY(10px);
+    transition: 0.5s;
+    opacity: 0;
+    margin-top: 40px;
 }
 
-.my-card-body p {
-    margin: 10px 0;
-    color: #f7941d
+.check123 .container .row .card-about:hover .card-about-body .testimonial,
+.check123 .container .row .card-about:hover .card-about-body .name,
+.check123 .container .row .card-about:hover .card-about-body .card-img img {
+    transform: translateY(0px);
+    opacity: 1
 }
 
-.social-icons {
-    margin-bottom: 25px
-}
+@media(max-width: 991.5px) {
+    .check123::after {
+        /* clip-path: circle(40% at 10% 50%) */
+        display: none;
+    }
 
-.social-icons a {
-    margin-right: 22px;
-    color: #363842;
-    font-size: 16px
-}
-
-.social-icons a:hover {
-    color: #c81a3b
-}
-
-
-.my-card-btn:hover {
-    color: rgb(15, 15, 15)
+    .check123::before {
+        /* clip-path: circle(50% at right -10%); */
+        display: none;
+    }
+    .check123 .container .row .card-about{
+      margin:10px;
+      height: auto;
+      width: auto;
+      
+    }
 }

@@ -70,71 +70,13 @@
         font-size: 40px;
         text-align: center;
         padding: 20px 0px;
-        color: rgb(206, 10, 10);
+        color: rgb(0, 0, 0);
         font-weight: bold;
+        background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+        font-weight: bold;
+        font-family: 'Grey Qo', cursive;
     }
 
 
 
 
-    /* .speakers h2{
-    font-size: 40px;
-    text-align: center;
-    padding: 20px 0px;
-    color: rgb(206, 10, 10);
-    font-weight: bold;
-}
-.all-speakers{
-    background-color: #f2f2f2;
-}
-.speaker-width{
-    width: 80%;
-    margin: auto;
-}
-.speakers-card{
-    padding: 30px 0px;
-    margin-top: 20px;
-    width: 320px;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 7px;
-    transition: transform .3s; 
-}
-.speakers-card:hover {
-    background-color: rgb(204, 39, 39);
-  }
-.speaker-img img{
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-}
-
-.speaker-content h4{
-    font-size: 20px;
-    margin-top: 8px;
-}
-
-.speaker-content .pos{
-    font-size: 18px;
-    margin-top: -7px;
-}
-
-
-.speaker-content .comp{
-    font-size: 18px;
-    margin-top: -15px;
-    font-weight: 550;
-}
-
-.speaker-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-@media screen and (max-width: 1024px) {
-    .speaker-width{
-        width: 90%;
-        margin: auto;
-    }
-       } */

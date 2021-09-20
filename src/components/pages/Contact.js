@@ -15,7 +15,7 @@ function Contact() {
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div className="location-text ms-2"> 
-                                <p>Kathmndu,Nepal</p>
+                                <p>Kathmandu,Nepal</p>
                             </div>
                         </div>
                         <div className="contact-icon d-flex">

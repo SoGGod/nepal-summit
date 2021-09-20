@@ -1,7 +1,5 @@
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Gallerypics from './components/innerpages/Gallerypics';
 import Footer from './components/layout/Footer';
 import Header from './components/layout/Header';
 import About from './components/pages/About';
@@ -12,6 +10,7 @@ import OrganizingTeam from './components/pages/OrganizingTeam';
 import Partners from './components/pages/Partners';
 import Promo from './components/pages/Promo';
 import Speakers from './components/pages/Speakers';
+import Check from './components/Check';
 
 function App() {
   return (
@@ -26,6 +25,8 @@ function App() {
       <Promo/>
       <Contact/>
       <Footer/>
+
+
     </div>
   );
 }

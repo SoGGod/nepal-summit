@@ -2,8 +2,10 @@
     font-size: 40px;
     text-align: center;
     padding: 20px 0px;
-    color: rgb(206, 10, 10);
+    color: rgb(0, 0, 0);
     font-weight: bold;
+    font-family: 'Grey Qo', cursive;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
 }
 .partners button{
     border: none;
