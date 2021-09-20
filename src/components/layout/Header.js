@@ -8,7 +8,7 @@ import {Link as LinkScroll} from 'react-scroll'
 function Header() {
     return (
 
-        <div className="summit-head">
+        <div className="summit-head mb-4">
         <nav className="navbar sticky-top navbar-expand-lg">
         <div className="container-fluid">
           <div className="col-md-1">    
@@ -76,7 +76,6 @@ function Header() {
           </div>
         </div>
       </nav>
-      <hr style={{height:'2px'}}/>
         </div>
   
     )
