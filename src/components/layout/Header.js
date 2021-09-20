@@ -8,8 +8,8 @@ import {Link as LinkScroll} from 'react-scroll'
 function Header() {
     return (
 
-        <div className="summit-head mb-4" style={{height:'100%'}}>
-        <nav className="navbar sticky-top navbar-expand-lg" style={{top:'0'}} >
+        <div className="summit-head mb-4 sticky-top">
+        <nav className="navbar navbar-expand-lg" style={{top:'0'}} >
         <div className="container-fluid">
           <div className="col-md-1">    
           </div> 
