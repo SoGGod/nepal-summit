@@ -6,38 +6,47 @@
     font-size: 20px;
 }
 .summit-head ul li a:hover{
-    color: #fff;
+    color: #000;
+}
+#sdrop li a:hover{
+    background-color: #09add9;
 }
 #sdrop li a{
     color: #000 !important;
     font-size: 20px;
-    border-bottom: 1px solid red;
-    border-style: dashed;
+    border-bottom: 1px solid black;
+    border-style: none;
 }
 .navlink:active{
     color: #000 !important;
 }
 #sdrop{
     margin-left: 20px;
-    background-color: #ccc;
+    background-color: #fff;
 }
 #sdropg{
     margin-left: 20px;
-    background-color: #ccc;
+    background-color: #fff;
 }
 #sdropg li a{
     color: #000 !important;
     font-size: 18px;
-    border-bottom: 1px solid red;
-    border-style: dashed;
+    border-bottom: 1px solid black;
+    border-style:none;
+}
+#sdropg li a:hover{
+    background-color: #09add9;
 }
 #rmdrop li a{
     color: #000 !important;
     font-size: 18px;
-    border-bottom: 1px solid red;
-    border-style: dashed;
+    border-bottom: 1px solid black;
+    border-style: none;
+}
+#rmdrop li a:hover{
+    background-color: #09add9;
 }
 #rmdrop{
     margin-left: 20px;
-    background-color: #ccc;
+    background-color: #fff;
 }
