@@ -10,7 +10,7 @@ function Banner() {
             <span style={{color: '#9B5DE5'}}>Click Below</span></h1>
             <a href="#" className="btn px-4 py-3 text-white mt-3 mt-sm-0" style={{borderRadius: '30px', backgroundColor: '#09add9', width:'80%', marginLeft:'20px', fontSize:'25px'}}>Register Here</a>
           </div>
-          <div className="image-hero col-md-8 h-100 clipped" style={{minHeight: '350px', backgroundImage: 'url(./images/hero-section.jpg)', backgroundPosition: 'center', backgroundSize: 'cover'}}>
+          <div className="image-hero col-md-8 h-100 clipped" style={{minHeight: '350px', backgroundImage: 'url(./images/hero-section1.jpg)', backgroundPosition: 'center', backgroundSize: 'cover'}}>
           </div>
         </div>
     </div>

@@ -2,17 +2,50 @@ import React from 'react'
 import './Check.css'
 function Check() {
   return (
-    <div className="hero-section mt-2 mb-5">
-       <div className="d-sm-flex align-items-center justify-content-between w-100" style={{height: '80vh'}}>
-          <div className="col-md-4 mx-auto mb-4 mb-sm-0 headline">
-            <span className="text-secondary text-uppercase " style={{marginLeft:'20px'}}>To Register</span>
-            <h1 className="display-4 my-4 font-weight-bold " style={{marginLeft:'20px'}}>For The Event <br/>
-            <span style={{color: '#9B5DE5'}}>Click Below</span></h1>
-            <a href="#" className="btn px-4 py-3 text-white mt-3 mt-sm-0" style={{borderRadius: '30px', backgroundColor: '#09add9', width:'80%', marginLeft:'20px', fontSize:'25px'}}>Register Here</a>
-          </div>
-          <div className="image-hero col-md-8 h-100 clipped" style={{minHeight: '350px', backgroundImage: 'url(./images/hero-section.jpg)', backgroundPosition: 'center', backgroundSize: 'cover'}}>
-          </div>
-        </div>
+    <div className="organizer_section mt-2 mb-5">
+       <section>
+         <div className="container">
+           <div className="card">
+              <div className="content">
+                <div className="imgBx"> <img src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"/> </div>
+                 <div className="contentBx">
+                    <h3> Lorem Ipsum <br/><span> I.T Specialists  </span> </h3>
+                 </div>
+              </div>
+              <ul className="sci">
+              <li > <a href="#"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
+              <li > <a href="#"> <i class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
+              <li > <a href="#"> <i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
+            </ul>
+            </div> 
+            <div className="card">
+              <div className="content">
+                <div className="imgBx"> <img src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"/> </div>
+                 <div className="contentBx">
+                    <h3> Lorem Ipsum <br/><span> I.T Specialists  </span> </h3>
+                 </div>
+              </div>
+              <ul className="sci">
+              <li> <a href="#"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
+              <li> <a href="#"> <i class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
+              <li> <a href="#"> <i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
+            </ul>
+            </div>
+            <div className="card">
+              <div className="content">
+                <div className="imgBx"> <img src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"/> </div>
+                 <div className="contentBx">
+                    <h3> Lorem Ipsum <br/><span> I.T Specialists  </span> </h3>
+                 </div>
+              </div>
+              <ul className="sci">
+              <li> <a href="#"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
+              <li> <a href="#"> <i class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
+              <li> <a href="#"> <i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
+            </ul>
+            </div>
+         </div>
+       </section>
     </div>
   )
 }
