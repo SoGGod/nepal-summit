@@ -11,8 +11,6 @@ function Header() {
         <div className="summit-head mb-4 sticky-top">
         <nav className="navbar navbar-expand-lg" style={{top:'0'}} >
         <div className="container-fluid">
-          <div className="col-md-1">    
-          </div> 
              <div className="col-md-2 text-center">
        <Link to="/"> <img src="./images/summit-logo-1.png" height="130px" width="130px" alt="" /> </Link>
             </div> 
