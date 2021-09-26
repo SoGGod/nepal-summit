@@ -25,7 +25,7 @@ function App() {
       <Promo/>
       <Contact/>
       <Footer/>
-
+        {/* <Check/> */}
     </div>
   );
 }

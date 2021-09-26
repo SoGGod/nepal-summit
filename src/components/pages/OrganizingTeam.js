@@ -5,9 +5,7 @@ function OrganizingTeam() {
     return (
         <div className="oteam">
             <h2>Organizing Team</h2>
-
-                        <div className="main-part-org mt-3 mb-3">
-            
+             <div className="main-part-org mt-3 mb-3">
                 <div className="container mt-5 d-flex justify-content-center">
             <div className="card_org">
             <div className="img-bx-org">
