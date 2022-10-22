@@ -1,0 +1,128 @@
+.oteam h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Grey Qo', cursive;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+}
+
+      
+  .main-part-org {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #03a9f4 5% , #fff 50%, #fff 48% , #03a9f4 5% ,#fff 90%, #fff 50%);
+  }
+  
+  .card_org {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    margin:10px 10px;
+  }
+  
+  .img-bx-org {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translateY(30px) scale(0.5);
+    transform-origin: top;
+  }
+  
+  .img-bx-org img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card_org .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+  }
+  
+  .card_org .content .detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .card_org .content .detail h3 {
+    color: #000;
+    font-size: 1.6em;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  
+  .card_org .content .detail h3 span {
+    font-size: 0.7em;
+    color: #f44f03;
+    font-weight: bold;
+  }
+  
+  .sci {
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+  }
+  
+  .sci li {
+    list-style: none;
+    margin: 4px;
+  }
+  
+  .sci li a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 1.5em;
+    color: #444;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.5s;
+  }
+  
+  .sci li a:hover {
+    background: #f49403;
+    color: #fff;
+  }
+  
+
+  @media only screen and (max-width: 800px) {
+       
+  .main-part-card_org {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  }
+
+

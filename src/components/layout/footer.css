@@ -1,0 +1,40 @@
+.footer-color{
+    background-color:#09add9;
+    padding: 20px;
+    color: #fff;
+}
+.footer-color h5 span{
+    border-bottom: 2px solid #fff;
+}
+.footer-color h5 {
+    margin-bottom: 15px;
+}
+
+.footer button{
+    border: none;
+    font-size: 19px;
+    padding: 0px 20px;
+    font-weight: 550;
+    background-color: rgb(153, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 8px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer .find-icon{
+    padding-left: 70px;
+}
+.footer .find-icon .icon{
+    margin: 0px 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    .right_most_part {
+      margin-left: -10px;
+      flex-wrap: wrap;
+    }
+    .find-icon{
+        margin-left: -50px;
+    }
+  }
+  

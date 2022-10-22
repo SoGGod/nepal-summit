@@ -1,0 +1,101 @@
+.organizing{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 20px;
+    text-align: justify;
+    margin:30px;
+}
+.pssws{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    text-align: center !important;
+    padding-bottom: 10px;
+   
+}
+
+.pssws::after{
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 40%; 
+    padding-top: 7px; 
+    border-bottom: 4px solid #ccc; 
+}
+.selection{
+    padding: 10px 40px;
+}
+.currentop{
+    padding: 10px 40px;
+}
+.currentop span{
+    border-bottom: 2px solid #fa7d00; 
+    font-weight: 550;
+    font-size: 18px;
+}
+.selection span{
+    border-bottom: 2px solid #ccc; 
+    font-weight: 550;
+    font-size: 18px;
+}
+@media screen and (max-width: 940px) {
+    .selection{
+        padding: 10px 10px;
+    }
+    .currentop{
+        padding: 10px 10px;
+    }
+    .careerss img{
+        width: 100%;
+        height: 280px !important;
+    }
+    .carrs{
+        top: 5% !important;
+        left: 5% !important;
+        opacity: .85 ;
+    }
+}
+.careerss{
+    position: relative;
+}
+.careerss img{
+    width: 100%;
+    height: 550px;
+}
+#crs{
+    background-color: #eee !important;
+}
+.carrs{
+    height: auto;
+    width: 400px;
+    background-color: rgb(238, 121, 25);
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    opacity: .85;
+}
+.carrs p{
+    font-weight: 550;
+    color: white;
+}
+.carrs p span{
+    font-size: 22px;
+    border-bottom: 3px solid #fff;
+}
+@media screen and (max-width: 740px) {
+    .carrs{
+        height: auto;
+        width: 370px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .carrs{
+        top: 4% !important;
+        left: 1% !important;
+        opacity: .85 ;
+    }
+    .carrs{
+        height: auto;
+        width: 350px;
+    }
+}
